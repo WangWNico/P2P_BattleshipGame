@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="edu.rpi.cs.csci4963.u24.wangn4.hw03.battleship.BattleShipController" prefWidth="1000" prefHeight="800">
+
+    <!-- Top Menu Bar -->
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="Exit" onAction="#exitApplication"/>
+            </Menu>
+            <Menu text="Settings">
+                <MenuItem text="Toggle Configuration" onAction="#toggleConfiguration"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <!-- Left Config Menu -->
+    <left>
+        <VBox spacing="10" alignment="CENTER" visible="false" managed="false" fx:id="configurationPanel">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Configuration" style="-fx-font-size: 14; -fx-font-weight: bold;"/>
+            <CheckBox text="Dark Mode" fx:id="darkModeCheckBox" onAction="#toggleDarkMode"/>
+            <HBox>
+                <TextField fx:id="timerTextField" promptText="Set Timer" prefWidth="200"/>
+                <Button text="Set Timer" onAction="#setTimer"/>
+            </HBox>
+        </VBox>
+    </left>
+
+    <!-- Center Game Grids -->
+    <center>
+        <HBox spacing="20" alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <!-- Grid for Own Ships -->
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="Your Ships" style="-fx-font-size: 14; -fx-font-weight: bold;"/>
+                <GridPane fx:id="ownShipsGrid" gridLinesVisible="true" alignment="CENTER"/>
+            </VBox>
+
+            <!-- Grid for Attacking -->
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="Enemy Ships" style="-fx-font-size: 14; -fx-font-weight: bold;"/>
+                <GridPane fx:id="enemyShipsGrid" gridLinesVisible="true" alignment="CENTER"/>
+            </VBox>
+        </HBox>
+    </center>
+
+    <!-- Right Score and Timer Panel -->
+    <right>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+<!--            <Label text="Player Scores" style="-fx-font-size: 14; -fx-font-weight: bold;"/>-->
+<!--            <Label text="Player 1: 0" id="player1Score"/>-->
+<!--            <Label text="Player 2: 0" id="player2Score"/>-->
+            <Separator/>
+            <Label text="Time Remaining" style="-fx-font-size: 14; -fx-font-weight: bold;"/>
+            <Label text="30" fx:id="timerLabel"/>
+        </VBox>
+    </right>
+
+    <!-- Bottom Tool Bar -->
+    <bottom>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button text="Configuration" onAction="#toggleConfiguration"/>
+            <Button text="Exit" onAction="#exitApplication"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>

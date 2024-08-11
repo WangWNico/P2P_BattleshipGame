@@ -1,0 +1,36 @@
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: #ffffff;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: #555555;
+    -fx-text-fill: #ffffff;
+}
+
+.menu-bar {
+    -fx-background-color: #3e3e3e;
+}
+
+.menu {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3e3e3e;
+}
+
+.text-field {
+    -fx-background-color: #555555;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #aaaaaa;
+}
+
+.check-box {
+    -fx-text-fill: #ffffff;
+}
+
+.separator {
+    -fx-background-color: #555555;
+}

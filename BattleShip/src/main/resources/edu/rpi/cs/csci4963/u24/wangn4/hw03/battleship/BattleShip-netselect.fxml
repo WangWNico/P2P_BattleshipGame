@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.rpi.cs.csci4963.u24.wangn4.hw03.battleship.BattleShipNetSelectController">
+   <children>
+      <Button layoutX="113.0" layoutY="88.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="116.0" text="Host" onAction="#host"/>
+      <Button layoutX="374.0" layoutY="88.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="116.0" text="Join" onAction="#join"/>
+      <Text layoutX="113.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would You Like To Host Or Join Game?" wrappingWidth="377.13000106811523" />
+      <TextField layoutX="221.0" layoutY="224.0" fx:id="portInput" onAction="#setPort"/>
+      <Text layoutX="182.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" fx:id="portText" text="Port:" />
+      <TextField layoutX="221.0" layoutY="259.0" fx:id="serverInput" onAction="#setServer"/>
+      <Text layoutX="172.0" layoutY="277.0" strokeType="OUTSIDE" fx:id="serverText" strokeWidth="0.0" text="Server:" />
+      <Button layoutX="251.0" layoutY="313.0" mnemonicParsing="false" fx:id="launchButton" text="Launch Game" onAction="#launchGame"/>
+   </children>
+</AnchorPane>

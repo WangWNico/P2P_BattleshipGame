@@ -1,0 +1,44 @@
+@options
+@packages
+@argfile
+--class-path
+'/home/nicowang/.m2/repository/org/openjfx/javafx-controls/22-ea+11/javafx-controls-22-ea+11.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-graphics/22-ea+11/javafx-graphics-22-ea+11.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-base/22-ea+11/javafx-base-22-ea+11.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-fxml/22-ea+11/javafx-fxml-22-ea+11.jar'
+--module-path
+'/home/nicowang/IdeaProjects/BattleShip/target/classes:/home/nicowang/.m2/repository/org/openjfx/javafx-graphics/22-ea+11/javafx-graphics-22-ea+11-linux.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-fxml/22-ea+11/javafx-fxml-22-ea+11-linux.jar:/home/nicowang/.m2/repository/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-controls/22-ea+11/javafx-controls-22-ea+11-linux.jar:/home/nicowang/.m2/repository/org/openjfx/javafx-base/22-ea+11/javafx-base-22-ea+11-linux.jar'
+--patch-module
+edu.rpi.cs.csci4963.u24.rcsid.hw02.gol_gui.battleship='/home/nicowang/IdeaProjects/BattleShip/src/main/java'
+-encoding
+'UTF-8'
+-protected
+--module-source-path
+'/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BattleShip 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'BattleShip 1.0-SNAPSHOT API'
+edu.rpi.cs.csci4963.u24.wangn4.hw03.battleship
+'/home/nicowang/IdeaProjects/BattleShip/src/main/java/module-info.java'
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/element-list = 1721592609940
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/overview-tree.html = 1721592610002
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/allclasses-index.html = 1721592610017
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/allpackages-index.html = 1721592610019
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/module-search-index.js = 1721592610020
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/package-search-index.js = 1721592610020
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/type-search-index.js = 1721592610021
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/member-search-index.js = 1721592610021
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/tag-search-index.js = 1721592610021
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/index-all.html = 1721592610043
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/search.html = 1721592610045
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/index.html = 1721592610047
+/home/nicowang/IdeaProjects/BattleShip/target/site/apidocs/help-doc.html = 1721592610050

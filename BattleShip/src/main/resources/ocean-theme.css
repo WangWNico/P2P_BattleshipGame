@@ -1,0 +1,65 @@
+/* ocean-theme.css */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0066cc, #003366);
+    -fx-font-family: "Arial";
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: #003366;
+}
+
+.menu {
+    -fx-text-fill: white;
+    -fx-background-color: #003366;
+}
+
+.menu-item {
+    -fx-text-fill: white;
+    -fx-background-color: #003366;
+}
+
+.menu-item:hover {
+    -fx-background-color: #0055cc;
+}
+
+.button {
+    -fx-background-color: #0055cc;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.vbox, .hbox {
+    -fx-spacing: 10;
+}
+
+.grid-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style for each grid cell */
+.grid-pane .cell {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-pref-width: 40;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+}
+
+.text-field {
+    -fx-background-color: #e6f2ff;
+    -fx-text-fill: #003366;
+}
+
+.separator {
+    -fx-background-color: white;
+}
+
+.check-box {
+    -fx-text-fill: white;
+}
